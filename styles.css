@@ -8,7 +8,7 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: inherit;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 header{
@@ -17,7 +17,7 @@ header{
     flex-direction: column;
     gap: 60px;
     padding-left: 100px;
-    
+    height: 400px;
     
 }
 
@@ -125,13 +125,19 @@ li{
     align-self: center;
     border-radius: 10px;
     outline: 2px solid blue;
+    margin: 10px;
+ }
+
+ .container{
+    background-color: #E5E7EB;
+    display: flex;  
+    justify-content: center;
+    height: 400px;
  }
 
  .quote{
     display: flex;
     flex-direction: column;
-    flex-basis: 150px;
-    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
  }
@@ -140,10 +146,55 @@ li{
     text-align: left;
     font-size: 36px;
     color: #1F2937;
-    width: 500px;
-
+    width: 900px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Use 300 for light weight, adjust if necessary */
+    font-style: italic;
  }
 
  .thor{
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+ .containerone{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .bottom,
+ .buttoncontainer{
+    background-color: #3882F6;
+    padding: 15px;
+    color:#F9FAF8;
+ }
+
+ .call{
+    font-size: 1.3rem;
+ }
+
+ .bottom{
+    border-radius: 10px 0 0 10px;
+    padding-left: 70px;
+ }
+
+ .buttoncontainer{
+    border-radius: 0 10px 10px 0;
+    padding-right: 70px;
+ }
+
+ .whitebutton{
+    outline: 2px solid white;
+    color:#F9FAF8;
+ }
+
+ .copyright{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 75px;
+    color:#E5E7EB;
  }
